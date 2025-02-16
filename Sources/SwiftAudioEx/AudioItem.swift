@@ -47,7 +47,7 @@ public protocol AssetOptionsProviding {
     func getAssetOptions() -> [String: Any]
 }
 
-public class DefaultAudioItem: AudioItem, Identifiable {
+open class DefaultAudioItem: AudioItem, Identifiable {
 
     public var audioUrl: String
     
